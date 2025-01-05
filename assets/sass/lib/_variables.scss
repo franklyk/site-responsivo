@@ -1,0 +1,52 @@
+
+
+:root{
+
+    --cl-wht: #fff;
+    --cl-lgt: #d8d8d854;
+
+    --site-color: #00484F;
+    
+    --site-color-light: #00484f33;
+
+    --text-color: #02737e;
+    
+    --box-shadow: inset 0px 0px 20px 20px #0021245b; 
+
+    --box-shadow-light: inset 0px 0px 20px 20px #00484f33;
+
+    --bg-gradient-right: linear-gradient(to right, transparent, var(--site-color-light), transparent);
+    // --bg-gradient-: linear-gradient(to left, var(--site-color), transparent);
+
+    --bg-gradient-left: linear-gradient(to left, transparent, var(--site-color-light), transparent);
+    // --bg-gradient-: linear-gradient(to right, transparent, var(--site-color));
+}
+
+
+
+@font-face {
+    font-family: 'font_black';
+    src: url("fonts/SairaCondensed-Black.ttf") format('truetype');
+}
+
+
+
+@font-face {
+    font-family: 'font_medium';
+    src: url("/assets/fonts/SairaCondensed-Medium.ttf") format('truetype');
+}
+
+
+
+@font-face {
+    font-family: 'font_thin';
+    src: url('/assets/fonts/SairaCondensed-Thin.ttf') format('truetype');
+    font-weight: 100;
+}
+
+
+@font-face {
+    font-family: 'font_default';
+    src: url("/assets/fonts/SairaCondensed-Regular.ttf") format('truetype');
+
+}

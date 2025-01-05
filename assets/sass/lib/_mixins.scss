@@ -1,0 +1,51 @@
+@import 'breakpoints';
+
+
+@mixin config{
+  border: 1px solid #3700ff;
+}
+
+// Min-width: 0px;
+@mixin xs{
+  @include breakpoint('>=mini'){
+    @content;
+  }
+}
+
+// Min-width: 500px;
+@mixin sm{
+  @include breakpoint('>=small'){
+    @content;
+  }
+}
+
+// Min-width: 650px;
+@mixin md{
+  @include breakpoint('>=md'){
+    @content;
+  }
+}
+
+// Min-width: 760px;
+@mixin lg{
+  @include breakpoint('>=lg'){
+    @content;
+  }
+}
+
+// Min-width: 860px;
+@mixin xl{
+  @include breakpoint('>=xl'){
+    @content;
+  }
+}
+
+// Min-width: 1000px;
+@mixin xxl{
+  @include breakpoint('>=xxl'){
+    @content;
+  }
+}
+
+
+
